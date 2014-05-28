@@ -21,6 +21,7 @@
 		0FC3A4FA193655160089C953 /* TreinoControleDeVersaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3A4F9193655160089C953 /* TreinoControleDeVersaoTests.m */; };
 		0FC3A505193655350089C953 /* RCSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3A504193655350089C953 /* RCSViewController.m */; };
 		0FC3A507193655550089C953 /* iphoneView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC3A506193655550089C953 /* iphoneView1.xib */; };
+		36AF486719365B0600B131DF /* RCSTestando.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AF486619365B0600B131DF /* RCSTestando.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0FC3A503193655350089C953 /* RCSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSViewController.h; sourceTree = "<group>"; };
 		0FC3A504193655350089C953 /* RCSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSViewController.m; sourceTree = "<group>"; };
 		0FC3A506193655550089C953 /* iphoneView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iphoneView1.xib; sourceTree = "<group>"; };
+		36AF486519365B0600B131DF /* RCSTestando.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSTestando.h; sourceTree = "<group>"; };
+		36AF486619365B0600B131DF /* RCSTestando.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSTestando.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0FC3A503193655350089C953 /* RCSViewController.h */,
 				0FC3A504193655350089C953 /* RCSViewController.m */,
 				0FC3A506193655550089C953 /* iphoneView1.xib */,
+				36AF486519365B0600B131DF /* RCSTestando.h */,
+				36AF486619365B0600B131DF /* RCSTestando.m */,
 			);
 			path = TreinoControleDeVersao;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				0FC3A505193655350089C953 /* RCSViewController.m in Sources */,
 				0FC3A4E1193655160089C953 /* main.m in Sources */,
+				36AF486719365B0600B131DF /* RCSTestando.m in Sources */,
 				0FC3A4E5193655160089C953 /* RCSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +460,7 @@
 				0FC3A4FF193655160089C953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FC3A500193655160089C953 /* Build configuration list for PBXNativeTarget "TreinoControleDeVersaoTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				0FC3A502193655160089C953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
